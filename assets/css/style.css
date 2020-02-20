@@ -222,11 +222,13 @@ body {
     
     #masthead{
           width:100%;
-          padding:0 20px;
+          padding:0 25px;
       }
     
     .main-section{
-      width:800px;
+      width:80%;
+      padding:20px;
+      margin:15px;
     }
 
     .auth-image{
@@ -261,15 +263,25 @@ body {
       width:100%;
     }
 
+    #masthead{
+      position:static;
+    }
+
+    #main-container{
+      padding-top:0;
+    }
+
     nav {
-      width:80%;
+      width:100%;
+      margin:15px;
+      text-align:center;
       
     }
 
     .auth-image{
-      width:300px;
-      height:400px;
+      width:100%;
       float:none;
+      padding:50px;
     }
 
     .main-section{
@@ -280,7 +292,7 @@ body {
     }
 
     .work{
-      width:60%;
+      width:100%;
     }
   }
 
