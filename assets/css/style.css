@@ -113,6 +113,14 @@ body {
     border-top: 3px solid #142034;
     height: 50px;
   }
+
+  footer a {
+    margin: 5px;
+    text-decoration: none;
+    color: #e3e7f1;
+    font-weight: bold;
+    font-family: 'Cabin', Arial, Helvetica, sans-serif;
+  }
   
   /* main */
   
@@ -136,14 +144,28 @@ body {
   
   .work {
     position: relative;
-    float: left;
-    width: 274px;
+    width: 400px;
     margin: 20px 0 25px;
     overflow: auto;
   }
   
   .work:nth-child(even) {
-    margin-right: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .work:nth-child(odd) {
+    margin-left: 20px;
+  }
+
+  .links a {
+    text-decoration: none;
+    color: #142034;
+    margin-left: 5px;
+  }
+
+  .links a:hover {
+    opacity: .5;
   }
   
   .work img {
@@ -156,7 +178,7 @@ body {
     position: absolute;
     bottom: 20px;
     width: 100%;
-    padding: 15px;
+    padding: 10px;
     margin-bottom: 0;
     font-weight: 300;
     line-height: 30px;
@@ -213,8 +235,6 @@ body {
   }
   
   input[type=submit] {
-    position: relative;
-    left: 390px;
     padding: 18px 30px;
     font-size: 18px;
     color: #ffffff;
@@ -226,12 +246,6 @@ body {
 
   input[type=submit]:hover {
     opacity: .5;
-  }
-
-  .contacts {
-    position: relative;
-    top: 500px;
-
   }
 
   /* Mobile Responsive */
@@ -256,6 +270,7 @@ body {
     .auth-image{
       width:150px;
     }
+    
 
   }
 
