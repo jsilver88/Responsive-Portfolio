@@ -44,7 +44,6 @@ h1 {
   padding-bottom: 20px;
   font-size: 30px;
   line-height: 49px;
-  border-bottom: 1px solid #797979;
 }
 
 h2,
@@ -233,7 +232,7 @@ textarea {
   padding: 0 10px;
   font-size: 14px;
   border: 1px solid #142034;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 textarea {
@@ -247,7 +246,7 @@ input[type="submit"] {
   cursor: pointer;
   background: #4c74b9;
   border: 0 none;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 input[type="submit"]:hover {
